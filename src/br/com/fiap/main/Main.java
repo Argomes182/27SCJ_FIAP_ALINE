@@ -180,9 +180,9 @@ public class Main {
 
 		ConfigurationBuilder configurationBuilderbuilder = new ConfigurationBuilder();
 
-		configurationBuilderbuilder.setOAuthConsumerKey("v6GRXCdhKCH2aKrfwqlSrKxHN");
+		configurationBuilderbuilder.setOAuthConsumerKey("ConsumerKey");
 
-		configurationBuilderbuilder.setOAuthConsumerSecret("mCrQEt64eR7Zh4As7ckSHPDox0WVXpmqwDj9LDJ7U3vIgHATCc");
+		configurationBuilderbuilder.setOAuthConsumerSecret("ConsumerSecret");
 
 		Configuration configuration = configurationBuilderbuilder.build();
 
@@ -200,9 +200,9 @@ public class Main {
 
 	private static AccessToken loadAccessToken() throws TwitterException {
 
-		String token = "74519694-T4ZORRNMLSBdHeEDB0ACJjPHn4it2JCrFQEeH2X3p";
+		String token = "MyToken";
 
-		String tokenSecret = "nBNwaDszujFF195tp1Hv8yb38CCliTRBA3Q3YMuXGjZ6I";
+		String tokenSecret = "TokenSecret";
 
 		return new AccessToken(token, tokenSecret);
 
